@@ -1,0 +1,35 @@
+body {
+    color: black;
+    background: #4ea79b;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #4ea79b);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #4ea79b);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.title {
+    font-family: 'Lobster', cursive;
+}
+
+.done {
+    text-decoration: line-through;
+    color: thistle
+}
+
+@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css');
+footer {
+    background-color: #1A1A1A;
+    height: 50%;
+    color: white;
+    padding: 15px;
+}
+
+.main1 {
+    display: flex;
+    margin: 0 auto;
+}
+
+a img:hover {
+    color: #fff;
+}
